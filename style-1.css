@@ -1,0 +1,293 @@
+@import url(https://db.onlinewebfonts.com/c/9186e96567fadf9c630b48d987ccd538?family=Chaloops+W00+Bd);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Chaloops W00 Bd";
+    background-color: #b3bd82;
+}
+nav{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(196, 222, 244);
+    justify-content: space-around;
+}
+nav .nav-part-2 ul{
+    display: flex;
+    gap: 53px;
+    align-items: center;
+    width: 100%;
+}
+.nav-part-2 ul li{
+    list-style: none;
+    font-size: 28px;
+}
+.nav-part-2 ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.hidden-button .manu-icon{
+    display: none;
+    padding-right: 33px;
+}
+.hidden-button:hover .dropdown-content{
+    display: block;
+    cursor: pointer; 
+}
+.hidden-button .dropdown-content{
+    display: none;
+    background-color: #FFF;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    z-index: 111;
+    top: 8px;
+}
+.hidden-button .dropdown-content img{
+    margin: 9px;
+}
+.dropdown-content .hidden-content-1 li{
+list-style: none;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin: 24px;
+}
+.hidden-content-1 li a{
+    text-decoration: none;
+  font-size: 25px;
+  padding-left: 21px;
+}
+.hidden-content-1 li img{
+    width: 37px;
+    border-radius: 24px;
+}
+.hidden-content-2{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(197, 189, 189);
+}
+.hidden-content-2 li{
+    list-style: none;
+}
+.back img{
+    width: 100%;
+    height: 90vh;
+}
+.log-img img{
+  width: 38vw;
+  position: absolute;
+  top: 66vh;
+  left: 71vh;
+}
+.second-portion{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.box-wrtting{
+    display: flex;
+    width: 56%;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -550px;
+}
+.box-wrt-1{
+    margin: 37px;
+}
+.box-wrt-1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    margin-bottom: 13px;
+}
+.box-wrt-1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box-wrt-2 img{
+    /* width: 100%; */
+}
+.back-image-2{
+    margin-top: 80px;
+    background: linear-gradient(0deg, rgb(67, 58, 55) 41%, rgb(179, 189, 130) 42%);
+}
+.back-image-2 img{
+    width: 100%;
+}
+.rarity-box{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(67, 58, 55);
+}
+.rarity-box p{
+    width: 79%;
+    margin: auto;
+    font-size: 27px;
+    color: white;
+    letter-spacing: 0.00938em;
+    text-align: center;
+}
+.rarity-box h1{
+    margin: auto;
+    width: 30%;
+    font-size: 78px;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: white;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.rarity-box .rare-box{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.rare-box .rare-item{
+    margin: 14px;
+  width: 16%;
+  background-image: -webkit-image-set(url(./images/background.png));
+  background-repeat: no-repeat;
+  background-color: rgb(179, 189, 130);
+  background-size: 100% 100%;
+  background-position: center center;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.rare-item h2{
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: white;
+    font-size: 47px;
+    margin-bottom: 2rem;
+}
+.Attribute{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(67, 58, 55);
+}
+.Attribute .attribute-heading h1{
+    font-size: 78px;
+    text-align: center;
+    padding-top: 5rem ;
+    margin-bottom: 5rem;
+    color: #FFF;
+}
+.attribute-box{
+    width: 100%;
+    margin: auto;
+}
+.attribute-box .attribute-box-1{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.attribute-box .attribute-box-2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  height: 150px;
+}
+.attribute-box-item{
+  align-items: center;
+  background-image: url("./images/back-2.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(179, 189, 130);
+  display: flex;
+  width: 31%;
+  justify-content: space-around;
+  border-radius: 17px;
+  align-items: center;
+}
+.attribute-box-item h3{
+    font-weight: bolder;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: white;
+    font-size: 37px;
+}
+.attribute-box-item img{
+    margin: 8px;
+}
+.back-3 img{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 1250px) {
+    .nav-part-2 ul li{
+        display: none;
+    }
+    nav .hidden-button .manu-icon{
+        display:block;
+    }
+    .log-img img{
+        width: 49vw;
+        position: absolute;
+        top: 65vh;
+        left: 28vh;
+    }
+    .second-portion .box-image{
+        display: none;
+    }
+
+    .second-portion .box-wrtting{
+        position: inherit;
+    }
+    .box-wrtting{
+        flex-direction: column;
+    }
+    .box-wrtting .box-wrt-1{
+        width: 100%;
+    }
+    
+    
+}
+@media only screen and (max-width: 600px){
+    .log-img img{
+        width: 72vw;
+        position: absolute;
+        top: 67vh;
+        left: 7vh;
+    }
+    .rare-box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .rare-box .rare-item{
+        width: 83%;
+        margin: 12px;
+    }
+    .attribute-box-1{
+        flex-direction: column;
+        width: 100%;
+        gap: 17px;
+    }
+    .attribute-box-item{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+}
