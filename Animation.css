@@ -1,0 +1,13 @@
+
+@keyframes slow {
+   0%{
+    letter-spacing: 20px;
+   }
+   50%{
+    letter-spacing:15px ;
+   }
+   100%{
+    letter-spacing:2px;
+   }
+}
+
