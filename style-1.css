@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: "Chaloops W00 Bd";
-    background-color: #b3bd82;
+    background-color: #db500f;
 }
 nav{
     display: flex;
@@ -576,7 +576,8 @@ footer img{
         margin: 12px;
     }
     .Attribute .attribute-heading h1{
-        font-size: 60px;
+        font-size: 50px;
+        width: 100%;
     }
     .attribute-box-1{
         flex-direction: column;
