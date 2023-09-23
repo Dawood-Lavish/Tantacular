@@ -575,6 +575,9 @@ footer img{
         width: 83%;
         margin: 12px;
     }
+    .Attribute .attribute-heading h1{
+        font-size: 60px;
+    }
     .attribute-box-1{
         flex-direction: column;
         width: 100%;
