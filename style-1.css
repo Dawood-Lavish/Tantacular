@@ -16,7 +16,7 @@ nav{
     width: 100%;
     align-items: center;
     background-color: rgb(196, 222, 244);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 nav .nav-part-2 ul{
     display: flex;
